@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>CORRECCIÓN DE ALCOHÓMETRO</title>
+   <script src="script.js"></script>
+</head>
+<body>
+   <h1><center style="font-family: 'Verdana', sans-serif;" >CORRECCIÓN DE ALCOHÓMETRO</h1>
+   <center><img src="Imagen1.png" width="25%"></img>
+   
+   <label for="valor1" style="font-size: 25px; font-family: 'Verdana', sans-serif;"><center>Concentración leída:</label>
+   <input type="number" id="valor1" style="font-size: 25px; font-family: 'Verdana', sans-serif;"><center>
+   <br style="font-size: 10px;">
+
+   <label for="valor2" style="font-size: 25px; font-family: 'Verdana', sans-serif;">Temperatura:</label>
+   <input type="number" id="valor2" style="font-size: 25px; font-family: 'Verdana', sans-serif;">
+   <br>
+   <br style="font-size: 25px;">
+   <button onclick="buscarNumero()" style="font-size: 25px; font-family: 'Verdana', sans-serif;" >CALCULAR</button>
+   <br>
+   <br>
+   <div id="resultado" style="font-size: 30px;font-weight: bold; font-family: 'Verdana', sans-serif;" ></div>
+   <br style="font-size: 5px;">
+   <button id="botonayuda" style="display: none; font-size: 25px; font-family: 'Verdana', sans-serif;" onclick = "tip ()">AYUDA</button>
+   <br>
+
+   <div id="tips" style="font-size: 30px;font-weight: bold;"></div>
+   <div id="temp" style="font-size: 25px;"></div>
+   <div id="temptext" style="font-size: 20px;"></div>
+   <div id="conc" style="font-size: 25px;"></div>
+   <div id="conctext" style="font-size: 20px;"></div>
+
+   <br>
+   <h5 style="font-size: 10 px; font-family: 'Verdana', sans-serif;">Fuente: http://www.fairesagnole.eu/homedistiller_fr/correctiontable.pdf</h5>
+   <h5 style="font-size: 10 px; font-family: 'Verdana', sans-serif;">Desarrollada por Santiago N. Riberi</h5>
+
+   
+</body>
+
+</html>
